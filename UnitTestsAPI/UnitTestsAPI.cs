@@ -17,7 +17,6 @@ using System.Collections.Generic;
 namespace UnitTestsAPI
 {
     [TestClass]
-    [TestCategory("QA Test Engineer Project Tests")]
     public class UnitTestsAPI
     {
         //Pre-Conditions/Assumptions for all test methods:
