@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RetryConfig>
+  <!--Please specify timeout values in seconds-->
+  <TimeoutInitialValue>100</TimeoutInitialValue>
+  <TimeoutRetryCount>3</TimeoutRetryCount>
+  <TimeoutIncrementTime>100</TimeoutIncrementTime>
+</RetryConfig>

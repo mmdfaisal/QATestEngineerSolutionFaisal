@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Contrast>
+    <BaseUrl>https://ce.contrastsecurity.com/Contrast/api</BaseUrl>
+    <ApiKey>g0dP4eF72hpkt4HH6VLN2TteAK3DkX4e</ApiKey>
+    <UserName>mmdfaisal@gmail.com</UserName>
+    <ServiceKey>LD6PFI5YU1J46N57</ServiceKey>
+    <OrgUuid>7782d386-464c-46de-8fdc-4987ba1c9838</OrgUuid> <!--The value of OrgUuid from here is not being used in the code (so far)-->
+                                                            <!--But makes sense to have it along with similar parameters for sake of completeness-->
+                                                            <!--Maybe will be needed in future-->
+</Contrast>

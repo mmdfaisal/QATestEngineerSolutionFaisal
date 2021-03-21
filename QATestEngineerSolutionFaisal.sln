@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsAPI", "UnitTestsAPI\UnitTestsAPI.csproj", "{045DAD94-E369-4CBD-AB4A-4247536584FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{077208A7-2485-4B6F-8DCF-B73F1F934E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{8791F9F8-AE04-4E7C-B9D6-B720E54666E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operations", "Operations\Operations.csproj", "{B8ECAC5D-8780-4A68-928F-8AE06DF7687E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BugReports", "BugReports", "{B01A9D5F-99ED-4828-B2C6-3A28783DF1E5}"
+	ProjectSection(SolutionItems) = preProject
+		BugReports\BugReport001.docx = BugReports\BugReport001.docx
+		BugReports\BugReport002.docx = BugReports\BugReport002.docx
+		BugReports\BugReport003.docx = BugReports\BugReport003.docx
+		BugReports\BugReport004.docx = BugReports\BugReport004.docx
+		BugReports\BugReport005.docx = BugReports\BugReport005.docx
+		BugReports\BugReport006.docx = BugReports\BugReport006.docx
+		BugReports\BugReport007.docx = BugReports\BugReport007.docx
+		BugReports\BugReport008.docx = BugReports\BugReport008.docx
+		BugReports\BugReport009.docx = BugReports\BugReport009.docx
+		BugReports\BugReport010.docx = BugReports\BugReport010.docx
+		BugReports\BugReport011.docx = BugReports\BugReport011.docx
+		BugReports\BugReport012.docx = BugReports\BugReport012.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{045DAD94-E369-4CBD-AB4A-4247536584FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045DAD94-E369-4CBD-AB4A-4247536584FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045DAD94-E369-4CBD-AB4A-4247536584FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045DAD94-E369-4CBD-AB4A-4247536584FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077208A7-2485-4B6F-8DCF-B73F1F934E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077208A7-2485-4B6F-8DCF-B73F1F934E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077208A7-2485-4B6F-8DCF-B73F1F934E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077208A7-2485-4B6F-8DCF-B73F1F934E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8791F9F8-AE04-4E7C-B9D6-B720E54666E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8791F9F8-AE04-4E7C-B9D6-B720E54666E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8791F9F8-AE04-4E7C-B9D6-B720E54666E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8791F9F8-AE04-4E7C-B9D6-B720E54666E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8ECAC5D-8780-4A68-928F-8AE06DF7687E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8ECAC5D-8780-4A68-928F-8AE06DF7687E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8ECAC5D-8780-4A68-928F-8AE06DF7687E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8ECAC5D-8780-4A68-928F-8AE06DF7687E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7D0F6DC-93BE-4B6A-AC78-7883D19CE46C}
+	EndGlobalSection
+EndGlobal

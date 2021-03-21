@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Contrast [
+  <!ENTITY orgUuid "7782d386-464c-46de-8fdc-4987ba1c9838">
+]>
+<Contrast>
+  <Organization>
+    <Organizations> <!--Organization/Organizations as part of following the API doc structure-->
+      <ApiKey>/ng/&orgUuid;/organizations/apikey</ApiKey> 
+      <Administrators>/ng/&orgUuid;/organizations/administrators</Administrators>
+      <Roles>/ng/&orgUuid;/organizations/application/roles</Roles>
+    </Organizations>
+    <Stats>
+      <Application>/ng/&orgUuid;/organizations/stats/application</Application>
+    </Stats>
+  </Organization>
+  <Tags>
+    <DelTagFromVulnerability>/ng/&orgUuid;/tags/trace/{traceUuid}</DelTagFromVulnerability>
+    <AddTagsToVulnerabilities>/ng/&orgUuid;/tags/traces</AddTagsToVulnerabilities>
+    <GetTagsForVulnerability>/ng/&orgUuid;/tags/traces/trace/{traceUuid}</GetTagsForVulnerability>
+  </Tags>
+  <Filters>
+    <FilterOrgVulnerabilities>/ng/&orgUuid;/orgtraces/filter</FilterOrgVulnerabilities>
+  </Filters>
+</Contrast>
