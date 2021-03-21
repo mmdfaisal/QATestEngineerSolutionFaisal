@@ -9,9 +9,15 @@ using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
 
+//External libraries used in this solution:
+//RestSharp - For REST API operations
+//Newtonsoft.Json - For deserealization / serealization
+//Nlog - For logging 
+
 namespace UnitTestsAPI
 {
     [TestClass]
+    [TestCategory("QA Test Engineer Project Tests")]
     public class UnitTestsAPI
     {
         //Pre-Conditions/Assumptions for all test methods:
@@ -41,9 +47,10 @@ namespace UnitTestsAPI
         }
 
         [TestMethod]
-        [Description("Makes GET request to retrieve the api key" +
+        [TestCategory("Organization")]
+        [Description("Makes GET request to retrieve the Api Key" +
                     "Asserts that Status Code is OK(200)" +
-                    "Asserts that the retrieved api key is correct (assuming we know what the correct key is)." +
+                    "Asserts that the retrieved Api Key is correct (assuming we know what the correct key is)." +
                     "In this case, we are validating against the API Key obtained from the UI(which can be automated through Selenium) and stored in ContrastConfig.xml")]
         public void TC001()
         {
@@ -55,6 +62,7 @@ namespace UnitTestsAPI
         }
 
         [TestMethod]
+        [TestCategory("Tagging")]
         [Description("Pre-Condition/Assumption: We know the vulnerability UUID to be 'PSQM-Q3BR-OSCI-GDA0'" +
                     "Tags a vulnerability (adds two tags)" +
                     "Asserts status code is OK(200)" +
@@ -77,6 +85,7 @@ namespace UnitTestsAPI
         }
 
         [TestMethod]
+        [TestCategory("Filters")]
         [Description("Pre-Condition/Assumption: We know 2 trace UUIDs which we read from input json" +
                     "Add two tags each to the above two vulnerabilities" +
                     "Asserts status code is OK(200)" +
@@ -117,6 +126,7 @@ namespace UnitTestsAPI
         }
 
         [TestMethod]
+        [TestCategory("Tagging")]
         [Description("Pre-Condition/Assumption: We know the vulnerability UUID to be 'PSQM-Q3BR-OSCI-GDA0'" +
                      "Makes Delete request to delete a non-existant tag from the above vulnerability" +
                      "Asserts that the messages array in response does NOT contain the string {Tag deleted successfully}")]
