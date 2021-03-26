@@ -10,7 +10,7 @@ namespace DTO
     {
         public TagsVulnerabilitiesRequest()
         {
-            tags = new List<string>();
+            tags = new List<string>(); 
             traces_id = new List<string>();
         }
         public List<string> tags { get; set; }
